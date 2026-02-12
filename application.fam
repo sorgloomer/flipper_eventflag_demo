@@ -1,0 +1,10 @@
+App(
+    appid="eventflag_demo",
+    name="EventFlag Demo",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="eventflag_demo_app",
+    requires=["gui", "gpio"],
+    stack_size=2 * 1024,
+    fap_icon="icon.png",
+    fap_category="Gpio",
+)
